@@ -1,0 +1,35 @@
+.header {
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.search-input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.profile-button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0095f6;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}

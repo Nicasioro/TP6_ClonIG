@@ -1,0 +1,53 @@
+.post {
+  background-color: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  cursor: pointer;
+  transform: rotate(-3deg);
+  transition: 0.3s;
+}
+
+.post-image:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.post-actions {
+  padding: 10px 15px;
+}
+
+.post-actions button {
+  border: none;
+  background: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.likes {
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+.caption {
+  padding: 10px 15px 20px;
+}
