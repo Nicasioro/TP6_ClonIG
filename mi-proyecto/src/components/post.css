@@ -24,7 +24,6 @@
   height: 500px;
   object-fit: cover;
   cursor: pointer;
-  transform: rotate(-3deg);
   transition: 0.3s;
 }
 
