@@ -24,9 +24,9 @@ function App() {
           likes: Math.floor(Math.random() * 5000),
           caption: "Miau miau 🐱",
           comments: [
-            "Que lindo gato 😺",
-            "Necesito adoptarlo YA",
-            "El mejor michi del mundo"
+            "sigmaboy132: Que lindo gato 😺",
+            "trueCat: Necesito adoptarlo YA",
+            "xXx_NotADog_xXx: El mejor michi del mundo"
           ],
           date: "Hace 2 horas"
         }));
