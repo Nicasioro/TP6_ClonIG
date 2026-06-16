@@ -17,12 +17,31 @@ function App() {
       try {
         const data = await getCats();
 const captions = [
-  "Qué lindo gato",
-  "Modo siesta activado",
-  "Hoy me siento fachero",
-  "Miau.",
-  "No me saquen fotos",
-  "Yo no fui"
+"Me sacaron esta foto sin consentimiento legal",
+"No pregunten como llegue hasta aca",
+"Yo antes de evadir impuestos (en Minecraft)",
+"La cara que pongo cuando escucho abrir una lata de atun",
+"Mi abogado me recomendo no explicar esta imagen",
+"POV: escuchaste abrir la bolsa de alimento",
+"Primer dia sin cometer crimenes",
+"No estoy gordo, estoy optimizado",
+"Me dijeron 'actua normal' y salio esto",
+"A veces me siento observado por este gato",
+"La NASA no quiere que veas esta foto",
+"Mi ultimo recuerdo antes del desastre",
+"Che quien subio esta foto mia",
+"Yo esperando que cargue el parcial",
+"Nadie:\nAbsolutamente nadie:\nYo a las 3 AM:",
+"Tengo informacion que podria comprometer al gobierno",
+"El aura que manejo es ilegal en 14 paises",
+"Mi cara cuando dicen 'es un trabajo en grupo'",
+"Acabo de encontrar una caja de carton y mi vida tiene sentido",
+"Esta foto sera usada como evidencia judicial",
+"No confio en las intenciones de este animal",
+"Dia 47 infiltrado entre los humanos",
+"Mi plan era dormir, no ser fotografiado",
+"La facha es temporal, el michi es eterno",
+"Yo despues de decir 'una partida mas y me voy a dormir'"
 ];
 
 const commentsPool = [
