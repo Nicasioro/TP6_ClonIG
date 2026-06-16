@@ -22,11 +22,12 @@ function App() {
           image: cat.url,
           username: `cat_user_${index + 1}`,
           likes: Math.floor(Math.random() * 5000),
-          caption: "Miau miau 🐱",
+          caption: "Jeje, este soy yo, sali re mal en esta foto pero bueno, YOLOOO",
           comments: [
-            "sigmaboy132: Que lindo gato 😺",
+            "sigmaboy132: Que lindo gato ",
             "trueCat: Necesito adoptarlo YA",
-            "xXx_NotADog_xXx: El mejor michi del mundo"
+            "xXx_NotADog_xXx: El mejor michi del mundo",
+            "BIGTTT: Bombardeen Peru"
           ],
           date: "Hace 2 horas"
         }));
