@@ -24,7 +24,7 @@ function App() {
           likes: Math.floor(Math.random() * 5000),
           caption: "Jeje, este soy yo, sali re mal en esta foto pero bueno, YOLOOO",
           comments: [
-            "sigmaboy132: Que lindo gato ",
+            "sigmaboy132: ola Preciosa, avlame este es mi numero 12938746396 ",
             "trueCat: Necesito adoptarlo YA",
             "xXx_NotADog_xXx: El mejor michi del mundo",
             "BIGTTT: Bombardeen Peru"
