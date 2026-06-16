@@ -45,10 +45,30 @@ const commentsPool = [
 " yo y los pibes cuando encontramos una caja de carton",
 " alguien mas escucha musica de ascensor cuando mira esta foto?",
 " este gato tiene pinta de saber exactamente donde vivo",
-" perdon llegue tarde estaba peleando contra una impresora"
+" perdon llegue tarde estaba peleando contra una impresora",
+" comentario dedicado a matewito "
 ];
 
-const users = ["sigmaboy132", "trueCat", "xXx_NotADog_xXx", "BIGTTT", "Gatónimo43"];
+const users = ["sigmaboy132",
+  "trueCat",
+  "xXx_NotADog_xXx",
+  "BIGTTT",
+  "Gatónimo43",
+  "elGatoFederal",
+  "juancho_2007",
+  "MichiDestroyer99",
+  "licenciadoEnMiau",
+  "gato_con_deuda",
+  "ElTioDelGato",
+  "perroInfiltrado",
+  "maullidoCuantico",
+  "nacho_empanada",
+  "gatardo3000",
+  "elultimomichi",
+  "SeñorBigotes",
+  "antiCroquetas",
+  "GatoAnonimo77",
+  "tostadora_humana"];
         const formattedPosts = data.map((cat, index) => ({
           id: cat.id,
           image: cat.url,
