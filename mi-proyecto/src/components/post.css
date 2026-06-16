@@ -28,7 +28,7 @@
 }
 
 .post-image:hover {
-  transform: rotate(-3deg) scale(1.02);
+  transform: rotate(0deg) scale(1.02);
 }
 
 .post-actions {

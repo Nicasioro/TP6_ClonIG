@@ -3,7 +3,7 @@ import "./Header.css";
 function Header({ showProfile, setShowProfile }) {
   return (
     <header className="header">
-      <h1 className="logo">Catstagram</h1>
+      <h1 className="logo">Mangogram</h1>
 
       <input
         type="text"
