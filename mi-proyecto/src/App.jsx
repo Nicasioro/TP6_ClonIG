@@ -27,7 +27,8 @@ function App() {
             "sigmaboy132: ola Preciosa, avlame este es mi numero 12938746396 ",
             "trueCat: Necesito adoptarlo YA",
             "xXx_NotADog_xXx: El mejor michi del mundo",
-            "BIGTTT: Bombardeen Peru"
+            "BIGTTT: Bombardeen Peru",
+            "Gatónimo43: che dale muchachos, somos todos Gatónimos, un minimo de onda metanle :("
           ],
           date: "Hace 2 horas"
         }));
