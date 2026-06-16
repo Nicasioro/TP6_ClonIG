@@ -16,20 +16,36 @@ function App() {
     const fetchCats = async () => {
       try {
         const data = await getCats();
+const captions = [
+  "Qué lindo gato",
+  "Modo siesta activado",
+  "Hoy me siento fachero",
+  "Miau.",
+  "No me saquen fotos",
+  "Yo no fui"
+];
 
+const commentsPool = [
+  " ola Preciosa, avlame este es mi numero 12938746396 ",
+  " Necesito adoptarlo YA",
+  " El mejor michi del mundo",
+  " Bombardeen Peru",
+  " che dale muchachos, somos todos Gatónimos, un minimo de onda metanle :("
+];
+
+const users = ["sigmaboy132", "trueCat", "xXx_NotADog_xXx", "BIGTTT", "Gatónimo43"];
         const formattedPosts = data.map((cat, index) => ({
           id: cat.id,
           image: cat.url,
           username: `Gatónimo${index + 1}`,
           likes: Math.floor(Math.random() * 5000),
-          caption: "Jeje, este soy yo, sali re mal en esta foto pero bueno, YOLOOO",
-          comments: [
-            "sigmaboy132: ola Preciosa, avlame este es mi numero 12938746396 ",
-            "trueCat: Necesito adoptarlo YA",
-            "xXx_NotADog_xXx: El mejor michi del mundo",
-            "BIGTTT: Bombardeen Peru",
-            "Gatónimo43: che dale muchachos, somos todos Gatónimos, un minimo de onda metanle :("
-          ],
+       caption: captions[Math.floor(Math.random() * captions.length)],
+
+comments: Array.from({ length: 5 }, () =>
+  `${users[Math.floor(Math.random() * users.length)]}: ${
+    commentsPool[Math.floor(Math.random() * commentsPool.length)]
+  }`
+),
           date: "Hace 2 horas"
         }));
 
