@@ -30,7 +30,22 @@ const commentsPool = [
   " Necesito adoptarlo YA",
   " El mejor michi del mundo",
   " Bombardeen Peru",
-  " che dale muchachos, somos todos Gatónimos, un minimo de onda metanle :("
+  " che dale muchachos, somos todos Gatónimos, un minimo de onda metanle :(",
+  " alguien mas ve al gato parpadear o ya me tengo que preocupar?",
+" vendi mi heladera para darle like a esta foto",
+" este gato sabe demasiado, no confio",
+" me robo la identidad en 2017 y nadie me cree",
+" si este gato se presenta a presidente lo voto",
+" hola gato te acordas de mi? estuvimos en la guerra juntos",
+" yo era feliz hasta que vi este gato mas fachero que yo",
+" denuncien esta publicacion por exceso de facha",
+" recien le mostre esta foto a mi perro y se puso a llorar",
+" este gato me debe 15 pesos",
+" la tercera foto contiene secretos de estado",
+" yo y los pibes cuando encontramos una caja de carton",
+" alguien mas escucha musica de ascensor cuando mira esta foto?",
+" este gato tiene pinta de saber exactamente donde vivo",
+" perdon llegue tarde estaba peleando contra una impresora"
 ];
 
 const users = ["sigmaboy132", "trueCat", "xXx_NotADog_xXx", "BIGTTT", "Gatónimo43"];
